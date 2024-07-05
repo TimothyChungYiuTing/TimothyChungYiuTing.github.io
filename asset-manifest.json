@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/VextGamesWebsite/static/css/main.0d00efae.css",
+    "main.js": "/VextGamesWebsite/static/js/main.50edee61.js",
+    "static/js/453.8343368f.chunk.js": "/VextGamesWebsite/static/js/453.8343368f.chunk.js",
+    "static/media/Without_Logo.png": "/VextGamesWebsite/static/media/Without_Logo.13176b2cfdd2861969e2.png",
+    "static/media/ProductHeroBackground.png": "/VextGamesWebsite/static/media/ProductHeroBackground.0ca301093d512f549709.png",
+    "static/media/Tunde.jpg": "/VextGamesWebsite/static/media/Tunde.a457a20eaadb604458ef.jpg",
+    "static/media/Emily.jpg": "/VextGamesWebsite/static/media/Emily.40630cd0efb7aafd815d.jpg",
+    "static/media/kevin.jpg": "/VextGamesWebsite/static/media/kevin.783f4661c5e363cc3ca0.jpg",
+    "static/media/Timothy.jpg": "/VextGamesWebsite/static/media/Timothy.5c75ab9e391d3e72343d.jpg",
+    "static/media/Kunish.jpg": "/VextGamesWebsite/static/media/Kunish.ace7fd58a990e230a5b0.jpg",
+    "static/media/Sammi.jpg": "/VextGamesWebsite/static/media/Sammi.65fecf1479b501ced90c.jpg",
+    "static/media/VextGameLogo.png": "/VextGamesWebsite/static/media/VextGameLogo.30151ef92ee8ce862db9.png",
+    "static/media/VextorialTitle.png": "/VextGamesWebsite/static/media/VextorialTitle.9fa3edebdab185e4902e.png",
+    "static/media/main_char.png": "/VextGamesWebsite/static/media/main_char.9abcbab1560fba2148d0.png",
+    "static/media/BrandName.png": "/VextGamesWebsite/static/media/BrandName.aca9e5b87762d4eace06.png",
+    "index.html": "/VextGamesWebsite/index.html",
+    "main.0d00efae.css.map": "/VextGamesWebsite/static/css/main.0d00efae.css.map",
+    "main.50edee61.js.map": "/VextGamesWebsite/static/js/main.50edee61.js.map",
+    "453.8343368f.chunk.js.map": "/VextGamesWebsite/static/js/453.8343368f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d00efae.css",
+    "static/js/main.50edee61.js"
+  ]
+}
