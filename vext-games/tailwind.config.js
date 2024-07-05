@@ -3,8 +3,6 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
-
-      
       keyframes: {
         "text-slide-left": {
           "0%": {
@@ -40,24 +38,34 @@ module.exports = {
           "100%": { backgroundPosition: "0% 50%" },
         },
         shadowPulse: {
-          '0%': { filter: 'drop-shadow(0px 0px 10px #a229f2)' },
-          '50%': { filter: 'drop-shadow(0px 0px 20px #a229f2)' },
-          '100%': { filter: 'drop-shadow(0px 0px 10px #a229f2)' },
+          "0%": { filter: "drop-shadow(0px 0px 10px #a229f2)" },
+          "50%": { filter: "drop-shadow(0px 0px 20px #a229f2)" },
+          "100%": { filter: "drop-shadow(0px 0px 10px #a229f2)" },
+        },
+        hoverPulse: {
+          "0%": { filter: "drop-shadow(0px 0px 10px #a229f2)" },
+          "100%": { filter: "drop-shadow(0px 0px 10px #a229f2)" },
         },
         iconPulse: {
-          '0%': { filter: 'drop-shadow(0px 0px 10px #3959db)' },
-          '50%': { filter: 'drop-shadow(0px 0px 20px #3959db)' },
-          '100%': { filter: 'drop-shadow(0px 0px 10px #3959db)' },
+          "0%": { filter: "drop-shadow(0px 0px 10px #3959db)" },
+          "50%": { filter: "drop-shadow(0px 0px 20px #3959db)" },
+          "100%": { filter: "drop-shadow(0px 0px 10px #3959db)" },
         },
       },
       animation: {
         "text-slide-left": "text-slide-left 1s ease-out",
         "text-slide-bottom": "text-slide-bottom 2.5s ease 0s 1 normal forwards",
         gradient: "gradient 60s ease infinite",
-        shadowPulse: 'shadowPulse 2s ease-in-out infinite',
-        iconPulse: 'iconPulse 2s ease-in-out infinite',
-        "fade-in": "fade-in 1s ease-out"
+        shadowPulse: "shadowPulse 2s ease-in-out infinite",
+        hoverPulse: "hoverPulse 5s ease 10s 1 normal forwards;",
+        iconPulse: "iconPulse 2s ease-in-out infinite",
+        "fade-in": "fade-in 1s ease-out",
       },
+    },
+  },
+  variants: {
+    extend: {
+      animation: ["hover"],
     },
   },
   plugins: [require("tailgrids/plugin")],

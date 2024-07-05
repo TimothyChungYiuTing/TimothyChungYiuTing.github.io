@@ -14,10 +14,8 @@ const VextorialFloatingButton = () => {
   return (
     <div className="fixed bottom-4 right-4 floating-button flex items-center">
       {/* Expanded icons */}
-      {(expanded) && (
-        <div
-          className={`animate-fade-in flex space-x-2 mr-4`}
-        >
+      {expanded && (
+        <div className={`animate-fade-in flex space-x-2 mr-4`}>
           <a
             className="animate-iconPulse bg-[#db16cb] hover:bg-[#ba04ab] text-white font-bold rounded-lg shadow-lg p-0 flex justify-center items-center"
             style={{ width: 50, height: 50 }}
@@ -86,9 +84,9 @@ const VextorialFloatingButton = () => {
       )}
 
       {/* Main button */}
-      {(isHovered && !expanded) && (
+      {isHovered && !expanded && (
         <div
-          className="speech down flex space-x-2 mr-4 font-bold text-center"
+          className="speech-container speech down flex space-x-2 mr-4 font-bold text-center"
           style={{
             position: "absolute",
             bottom: "70px",
@@ -96,7 +94,22 @@ const VextorialFloatingButton = () => {
             padding: "1rem",
           }}
         >
-          Click for <br/>
+          Click for <br />
+          Social Media
+        </div>
+      )}
+
+      {!isHovered && !expanded && (
+        <div
+          className="speech-container speech down flex space-x-2 mr-4 font-bold text-center"
+          style={{
+            position: "absolute",
+            bottom: "70px",
+            right: "0",
+            padding: "1rem",
+          }}
+        >
+          Click for <br />
           Social Media
         </div>
       )}

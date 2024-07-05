@@ -1,4 +1,5 @@
 import React from "react";
+import VextorialVideo from "../videos/vextorial.mp4"
 
 const VextorialYoutubeVideo = () => {
   return (
@@ -7,14 +8,10 @@ const VextorialYoutubeVideo = () => {
     <section className="p-8 bg-black">
       
       <div className="mx-auto max-w-screen-md">
-        <iframe
-          src="https://www.youtube.com/embed/Nzlsc9ssj_s?"
-          className="mb-4 h-[28rem] w-full rounded-xl"
-          allowfullscreen
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          title="Tutorial Video"
-        ></iframe>
+      <video className="w-full h-full rounded-xl" controls muted autoplay>
+        <source src={VextorialVideo} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
         <h2 class="my-4 font-black text-4xl leading-snug text-indigo-400 mb-4">
           Introducing Vextorial
         </h2>

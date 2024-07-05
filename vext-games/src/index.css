@@ -21,6 +21,15 @@
   z-index: 9999;
 }
 
+.speech-container {
+  opacity: 0.5; 
+  transition: opacity 0.3s; 
+}
+
+.speech-container:hover {
+  opacity: 1; 
+}
+
 .text-outline {
   text-shadow: -2px -2px 0 #ff00ff, 2px -2px 0 #ff00ff, -2px 2px 0 #ff00ff,
     2px 2px 0 #ff00ff, -2px 0px 0 #ff00ff, 2px 0px 0 #ff00ff, 0px -2px 0 #ff00ff,

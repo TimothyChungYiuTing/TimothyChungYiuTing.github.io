@@ -48,7 +48,7 @@ const Team = () => {
           </h1>
         </div>
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <div class="animate-shadowPulse w-full bg-[#02456b] rounded-lg p-12 flex flex-col justify-center items-center">
+          <div class="hover:animate-shadowPulse w-full bg-[#02456b] rounded-lg p-12 flex flex-col justify-center items-center">
             <div class="mb-8">
               <img
                 className="object-center object-cover rounded-full h-36 w-36 transform"
@@ -61,7 +61,7 @@ const Team = () => {
               <p class="text-xl text-indigo-200 font-normal">Team Leader</p>
             </div>
           </div>
-          <div class="animate-shadowPulse w-full bg-[#02456b] rounded-lg p-12 flex flex-col justify-center items-center">
+          <div class="hover:animate-shadowPulse w-full bg-[#02456b] rounded-lg p-12 flex flex-col justify-center items-center">
             <div class="mb-8">
               <img
                 className="object-center object-cover rounded-full h-36 w-36 transform"
@@ -74,7 +74,7 @@ const Team = () => {
               <p class="text-xl  text-indigo-200 font-normal">Game Designer</p>
             </div>
           </div>
-          <div class="animate-shadowPulse w-full bg-[#02456b] rounded-lg p-12 flex flex-col justify-center items-center">
+          <div class="hover:animate-shadowPulse w-full bg-[#02456b] rounded-lg p-12 flex flex-col justify-center items-center">
             <div class="mb-8">
               <img
                 className="object-center object-cover rounded-full h-36 w-36 transform"
@@ -89,7 +89,7 @@ const Team = () => {
               </p>
             </div>
           </div>
-          <div class="animate-shadowPulse w-full bg-[#02456b] rounded-lg p-12 flex flex-col justify-center items-center">
+          <div class="hover:animate-shadowPulse w-full bg-[#02456b] rounded-lg p-12 flex flex-col justify-center items-center">
             <div class="mb-8">
               <img
                 className="object-center object-cover rounded-full h-36 w-36 transform"
@@ -104,7 +104,7 @@ const Team = () => {
               </p>
             </div>
           </div>
-          <div class="animate-shadowPulse w-full bg-[#02456b] rounded-lg p-12 flex flex-col justify-center items-center">
+          <div class="hover:animate-shadowPulse w-full bg-[#02456b] rounded-lg p-12 flex flex-col justify-center items-center">
             <div class="mb-8">
               <img
                 className="object-center object-cover rounded-full h-36 w-36 transform"
@@ -119,7 +119,7 @@ const Team = () => {
               </p>
             </div>
           </div>
-          <div class="animate-shadowPulse w-full bg-[#02456b] rounded-lg p-12 flex flex-col justify-center items-center">
+          <div class="hover:animate-shadowPulse w-full bg-[#02456b] rounded-lg p-12 flex flex-col justify-center items-center">
             <div class="mb-8">
               <img
                 className="object-center object-cover rounded-full h-36 w-36 transform"
