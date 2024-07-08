@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from "react";
+import React from "react";
 import Kevin from "../images/TeamMembers/kevin.jpg";
 import Tunde from "../images/TeamMembers/Tunde.jpg";
 import Timothy from "../images/TeamMembers/Timothy.jpg";
@@ -7,38 +7,8 @@ import Kunish from "../images/TeamMembers/Kunish.jpg";
 import Emily from "../images/TeamMembers/Emily.jpg";
 
 const Team = () => {
-  // const elementRef = useRef(null);
-  // const [animated, setAnimated] = useState(false);
-
-  // useEffect(() => {
-  //   const element = elementRef.current;
-
-  //   const handleScroll = () => {
-  //     if (!animated) {
-  //       const elementTop = element.getBoundingClientRect().top;
-  //       const viewportHeight = window.innerHeight;
-
-  //       // Check if element is in viewport
-  //       if (elementTop < viewportHeight) {
-  //         element.classList.add("animate-text-slide-bottom");
-  //         setAnimated(true); // Mark animation as completed
-  //       }
-  //     }
-  //   };
-
-  //   // Attach scroll event listener
-  //   window.addEventListener("scroll", handleScroll);
-
-  //   // Clean up
-  //   return () => {
-  //     window.removeEventListener("scroll", handleScroll);
-  //   };
-  // }, [animated]);
-
   return (
-    // <div className="mx-20 mt-20 mb-10 border-8 border-solid border-indigo-600 rounded-md custom-neon-border">
       <section
-        // ref={elementRef}
         class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 py-12"
       >
         <div class="text-center pb-12">
@@ -134,7 +104,6 @@ const Team = () => {
           </div>
         </div>
       </section>
-    // {/* </div> */}
   );
 };
 

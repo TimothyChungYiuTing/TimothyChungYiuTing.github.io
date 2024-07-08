@@ -63,65 +63,62 @@ export default function Example() {
           />
         </svg>
       </div>
-      {/* <div className="mx-20 border-8 border-solid border-indigo-600 rounded-md custom-neon-border"> */}
-        <div
-          ref={elementRef}
-          className="p-8 mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10"
-        >
-          <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
-            <div className="lg:pr-4">
-              <div className="lg:max-w-lg">
-                <p className="text-base font-semibold leading-7 text-indigo-200">
-                  Imagination innovated
-                </p>
-                <h1 className="mt-2 text-3xl font-bold tracking-tight text-indigo-400 sm:text-4xl">
-                  A new gaming world to explore
-                </h1>
-                <p className="mt-6 text-xl leading-8 text-gray-200">
-                  Our team, VEXT GAMES, is a diverse and talented group with
-                  members hailing from Hong Kong, the UK, Nigeria, Mauritius,
-                  and beyond.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
-            <img
-              className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
-              src={ProductHeroBG}
-              alt=""
-            />
-          </div>
-          <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
-            <div className="lg:pr-4">
-              <div className="max-w-xl text-base leading-7 text-gray-200 lg:max-w-lg">
-                <p className="text-lg">
-                  United by our shared passion for game development, we bring
-                  together a wide range of skills and experiences. Each of us is
-                  dedicated to creating exciting gameplay experiences that
-                  captivate and engage players. Our unique backgrounds and
-                  expertise allow us to approach game design from various
-                  perspectives, ensuring innovation and creativity in every
-                  project.
-                </p>
-                <div className="h-16"></div>
-                <h2 className="mt-16 text-2xl font-bold tracking-tight text-indigo-400">
-                  Our Journey
-                </h2>
-                <p className="mt-6 text-lg">
-                  Tranzfuser has offered us the opportunity to refine our
-                  project, Vextorial, and gain the support and recognition
-                  needed to bring our vision to life. We are eager to showcase
-                  our talents and take our game development journey to new
-                  heights. We hope you'll join us on our journey in making
-                  something that will keep you talking about us for years to
-                  come!
-                </p>
-              </div>
+      <div
+        ref={elementRef}
+        className="p-8 mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10"
+      >
+        <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+          <div className="lg:pr-4">
+            <div className="lg:max-w-lg">
+              <p className="text-base font-semibold leading-7 text-indigo-200">
+                Imagination innovated
+              </p>
+              <h1 className="mt-2 text-3xl font-bold tracking-tight text-indigo-400 sm:text-4xl">
+                A new gaming world to explore
+              </h1>
+              <p className="mt-6 text-xl leading-8 text-gray-200">
+                Our team, VEXT GAMES, is a diverse and talented group with
+                members hailing from Hong Kong, the UK, Nigeria, Mauritius, and
+                beyond.
+              </p>
             </div>
           </div>
         </div>
-      {/* </div> */}
+        <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
+          <img
+            className="w-full max-w-full sm:max-w-auto lg:max-w-[48rem] xl:max-w-[48rem] rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10"
+            src={ProductHeroBG}
+            alt=""
+          />
+        </div>
+        <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+          <div className="lg:pr-4">
+            <div className="max-w-xl text-base leading-7 text-gray-200 lg:max-w-lg">
+              <p className="text-lg">
+                United by our shared passion for game development, we bring
+                together a wide range of skills and experiences. Each of us is
+                dedicated to creating exciting gameplay experiences that
+                captivate and engage players. Our unique backgrounds and
+                expertise allow us to approach game design from various
+                perspectives, ensuring innovation and creativity in every
+                project.
+              </p>
+              <div className="h-16"></div>
+              <h2 className="mt-16 text-2xl font-bold tracking-tight text-indigo-400">
+                Our Journey
+              </h2>
+              <p className="mt-6 text-lg">
+                Tranzfuser has offered us the opportunity to refine our project,
+                Vextorial, and gain the support and recognition needed to bring
+                our vision to life. We are eager to showcase our talents and
+                take our game development journey to new heights. We hope you'll
+                join us on our journey in making something that will keep you
+                talking about us for years to come!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
