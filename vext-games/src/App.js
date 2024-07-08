@@ -6,12 +6,10 @@ import Vextorial from "./pages/Vextorial";
 const App = () => {
   return (
     <>
-    {/* <Router> */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/vextorial" element={<Vextorial />} />
         </Routes>
-    {/* </Router> */}
     </>
   );
 };

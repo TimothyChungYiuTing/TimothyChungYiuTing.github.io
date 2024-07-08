@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
 import MainChar from "../images/main_char.png";
-import PiloJump from "../images/PiloJump.png";
 import PiloHello from "../images/PiloHello.png";
 import PiloFamily from "../images/FamilyPhoto.jpg";
 import PiloFlip1 from "../images/PiloFlip1.png";
