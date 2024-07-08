@@ -74,9 +74,6 @@ const VextorialContent = () => {
           </h3>
         </div>
       </div>
-      {/* </div> */}
-
-      {/* <div className="mx-20 my-20 border-8 border-solid border-indigo-600 rounded-md custom-neon-border"> */}
       <div
         ref={addToRefs}
         class="animate-text-slide-bottom gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6"
@@ -107,9 +104,6 @@ const VextorialContent = () => {
           />
         </div>
       </div>
-      {/* </div> */}
-
-      {/* <div className="mx-20 my-20 border-8 border-solid border-indigo-600 rounded-md custom-neon-border"> */}
       <div
         ref={addToRefs}
         class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6"

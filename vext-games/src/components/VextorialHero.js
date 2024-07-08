@@ -20,10 +20,6 @@ const VextorialHero = () => {
                   alt="Vext Games"
                 />
               </div>
-              <h2 class="vextorial-desc-text-outline max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
-                The puzzle game that will keep you playing
-                <span class="inline-block text-[#50d5fa]">over and over</span>
-              </h2>
             </div>
             <div class="flex flex-col items-center md:flex-row"></div>
           </div>
