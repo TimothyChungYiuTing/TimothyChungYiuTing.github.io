@@ -13,6 +13,30 @@
   background-size: 600% 600%;
 }
 
+.custom-image-bg  {
+  background-image: url('./images/Without_Logo.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh; 
+  width: 100%; 
+  display: flex;
+  flex-direction: column;
+}
+
+.vextorial-desc-text-outline {
+  text-shadow:
+    -5px -5px 0 #000,
+    5px -5px 0 #000,
+    -5px 5px 0 #000,
+    5px 5px 0 #000;
+}
+
+.custom-size {
+  height: 250px;
+  width: auto;
+}
+
 .smooth-scroll {
   scroll-behavior: smooth;
 }
