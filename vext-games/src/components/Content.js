@@ -77,9 +77,7 @@ export default function Example() {
                 A new gaming world to explore
               </h1>
               <p className="mt-6 text-xl leading-8 text-gray-200">
-                Our team, VEXT GAMES, is a diverse and talented group with
-                members hailing from Hong Kong, the UK, Nigeria, Mauritius, and
-                beyond.
+                
               </p>
             </div>
           </div>
