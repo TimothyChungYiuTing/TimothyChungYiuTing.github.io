@@ -1,27 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.0d00efae.css",
-    "main.js": "/static/js/main.e7c14f84.js",
+    "main.css": "/static/css/main.fb93b515.css",
+    "main.js": "/static/js/main.999852e0.js",
     "static/js/453.8343368f.chunk.js": "/static/js/453.8343368f.chunk.js",
-    "static/media/Without_Logo.png": "/static/media/Without_Logo.13176b2cfdd2861969e2.png",
-    "static/media/ProductHeroBackground.png": "/static/media/ProductHeroBackground.0ca301093d512f549709.png",
+    "static/media/vextorial.mp4": "/static/media/vextorial.8b837f8e1cd0f8552625.mp4",
+    "static/media/Without_Logo.png": "/static/media/Without_Logo.345052234d29e8a30211.png",
+    "static/media/ProductHeroBackground.png": "/static/media/ProductHeroBackground.9cd120a3630adc75887a.png",
     "static/media/Tunde.jpg": "/static/media/Tunde.a457a20eaadb604458ef.jpg",
     "static/media/Emily.jpg": "/static/media/Emily.40630cd0efb7aafd815d.jpg",
     "static/media/kevin.jpg": "/static/media/kevin.783f4661c5e363cc3ca0.jpg",
     "static/media/Timothy.jpg": "/static/media/Timothy.5c75ab9e391d3e72343d.jpg",
     "static/media/Kunish.jpg": "/static/media/Kunish.ace7fd58a990e230a5b0.jpg",
+    "static/media/FamilyPhoto.jpg": "/static/media/FamilyPhoto.5bb438a272072f63df7e.jpg",
     "static/media/Sammi.jpg": "/static/media/Sammi.65fecf1479b501ced90c.jpg",
+    "static/media/VextorialTitle.png": "/static/media/VextorialTitle.de7b386e575d98548129.png",
     "static/media/VextGameLogo.png": "/static/media/VextGameLogo.30151ef92ee8ce862db9.png",
-    "static/media/VextorialTitle.png": "/static/media/VextorialTitle.9fa3edebdab185e4902e.png",
+    "static/media/PiloHello.png": "/static/media/PiloHello.46e9eb8ec9afc02d0c18.png",
     "static/media/main_char.png": "/static/media/main_char.9abcbab1560fba2148d0.png",
+    "static/media/PiloFlip2.png": "/static/media/PiloFlip2.4dd62f0ed14720698e15.png",
+    "static/media/PiloFlip1.png": "/static/media/PiloFlip1.56cf9c8e125747422bf3.png",
     "static/media/BrandName.png": "/static/media/BrandName.aca9e5b87762d4eace06.png",
     "index.html": "/index.html",
-    "main.0d00efae.css.map": "/static/css/main.0d00efae.css.map",
-    "main.e7c14f84.js.map": "/static/js/main.e7c14f84.js.map",
+    "main.fb93b515.css.map": "/static/css/main.fb93b515.css.map",
+    "main.999852e0.js.map": "/static/js/main.999852e0.js.map",
     "453.8343368f.chunk.js.map": "/static/js/453.8343368f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0d00efae.css",
-    "static/js/main.e7c14f84.js"
+    "static/css/main.fb93b515.css",
+    "static/js/main.999852e0.js"
   ]
 }
