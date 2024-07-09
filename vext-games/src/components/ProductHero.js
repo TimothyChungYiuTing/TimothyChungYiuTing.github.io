@@ -12,13 +12,13 @@ export default function ProductHero() {
         <NavigationBar />
       </header>
 
-      <div className="relative isolate px-6 py-20 lg:px-8 min-h-screen/2 flex items-center justify-center">
+      <div className="relative isolate px-6 py-20 lg:px-8 h-[60vh] flex items-center justify-center">
         <div className="mx-auto max-w-2xl">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center"></div>
           <div className="text-center">
             <div className="flex items-center justify-center">
               <img
-                className="h-30 w-auto animate-shadowPulse"
+                className="h-60 w-auto animate-shadowPulse"
                 src={BrandName}
                 alt="Vext Games"
               />
