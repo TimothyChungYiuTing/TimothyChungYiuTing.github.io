@@ -3,9 +3,7 @@ import VextorialVideo from "../videos/vextorial.mp4"
 
 const VextorialYoutubeVideo = () => {
   return (
-    // <div className="mx-20 my-10 border-8 border-solid border-indigo-600 rounded-md custom-neon-border">
-
-    <section className="p-8 bg-black">
+    <section className="pt-16 p-8 bg-black">
       
       <div className="mx-auto max-w-screen-md">
       <video className="w-full h-full rounded-xl" controls muted autoplay>
